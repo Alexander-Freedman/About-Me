@@ -124,8 +124,8 @@ footer.travel {
   }
 
   .image-container img:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 100px 100px rgba(0, 0, 0, 0.7) !important;
+    transform: scale(1.05);
+    box-shadow: 0 0 45px 45px rgba(0, 0, 0, 0.7) !important;
   }
 
   .mh-1 {
