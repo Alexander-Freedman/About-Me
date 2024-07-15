@@ -1,0 +1,134 @@
+body {
+    background-color:#000000;
+    color:#ffffff;
+}
+
+nav,
+footer {
+    background-color:#2d2d2d;
+    color:#ffffff;
+}
+
+.nav-link:hover {
+    color:#a2a2a2;
+}
+
+.card-text {
+    height:70px;
+ }
+
+.card-img-top {
+    object-fit: cover;
+    height:300px;
+}
+
+ .logo {
+    object-fit: cover;
+    max-height: 25px;
+ }
+
+.card.home:hover {
+    box-shadow: 0 0 30px rgba(255,255,255,0.1);
+}
+
+body.profile {
+    background-color:#1c0425;
+    color:#e7b1fe;
+}
+
+nav.profile,
+footer.profile {
+    background-color:#3b2046;
+    color:#e7b1fe;
+}
+
+.h-0 {
+    font-family: "Monaco", Monospace;
+    color:#f40096;
+ }
+
+img.profile {
+    object-fit: contain;
+    width:400px;
+    height:auto;
+ }
+
+ .markup {
+    color:#f40096;
+    font-size:larger;
+    font-family: "Monaco", Monospace;
+ }
+
+.card.music {
+    width:300px;
+    height:600px;
+    border-radius: 6px !important;
+    padding-top: 12px;
+    background-color:#2d2d2d;;
+    outline-color: var(--outline) !important;
+    outline-style:solid !important;
+    color: var(--outline) !important;
+    background-color: #212121 !important;
+}
+
+.card.music:hover {
+    box-shadow: 0 0 30px var(--glow-hover) !important;
+}
+
+.card-text.music {
+    background-color:#204628;
+    height:auto;
+ }
+
+.card-img-top.music {
+    object-fit:cover;
+    height:auto;
+    aspect-ratio: 1/1;
+    border-radius: 6px !important;
+    border-color: #131313;
+}
+
+.mh-0 {
+    font-family: "Monaco", Monospace;
+    color:#FF10F0;
+ }
+
+ body.travel {
+    background-color:#041f25;
+    color:#c0e8f2;
+}
+
+nav.travel,
+footer.travel {
+    background-color:#203f46;
+    color:#c0e8f2;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 25px;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .image-container img {
+    flex: 0 0 auto;
+    max-width: 50%;
+    max-height: 275px;
+    object-fit: cover;
+    margin: 5px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .image-container img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 100px 100px rgba(0, 0, 0, 0.7) !important;
+  }
+
+  .mh-1 {
+    font-family: "Monaco", Monospace;
+    color:#aa71eb;
+ }
